@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/hello', function () {
-    echo '<h1>Hello World</h1>';
+Route::get('/login', function () {
+    return view('login');
 });
